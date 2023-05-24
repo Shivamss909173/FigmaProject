@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Poppins:ital,wght@0,400;0,500;1,900&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.head{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    background-color:white;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 100px; */
+    width: 1366px;
+    height: 73.03px;
+}
+.navbar img{
+    width: 182px;
+    height: 75px;
+    margin-left:80px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li{
+    margin: 40px;
+    color: #B872D0;
+}
+
+.navbar div button{
+    margin: 20px;
+}
+.signup{
+    width:100px;
+    height:40px;
+    border-radius: 4px;
+background-color: #B872D0;
+color:white;
+}
+.login{
+    width: 90px;
+    height: 35px;
+    color:#B872D0;
+    border-radius: 4px;
+}
+
+
+/* landingpage */
+.container0{
+    background-color:#ede0f1;
+    height:1000px;
+}
+/* /* .landingpage h4{
+    text-align: center;
+    padding-top:50px;
+    color: #800080; 
+} */
+
+.container1{
+    padding-top:5px;
+    display: flex;
+    justify-content: space-between;
+    margin:50px;
+
+}
+.heading{
+    text-align: center;
+    padding-top:50px;
+    color: #800080;
+}
+.heading h3{
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-style: bold;
+    width: 989px;
+    height:70px;
+    margin-left:300px;
+    background-color: #FFFFFF;
+    border-radius: none;
+    letter-spacing:0.03em;
+    border-radius:10px;
+}
+
+.header-left{
+    color: #800080;
+    margin-left: 70px;
+    width: 237.26px;
+    height: 137.75px;
+    padding: 20px 98.7px;
+}
+.header-left h5{
+    font-size: 18px;
+}
+.header-left h2{
+    font-size: 48px;
+}
+.header-left h6{
+    font-size: 15px;
+}
+.know{
+    width: 203px;
+    height: 50px;
+    margin-top:20px;
+    border-radius: 5px;
+    background-color: #800080;
+    color: white;
+    font-size: 18px;
+}
+.header-right{
+    background-color:white;
+    width:465px;
+    height:280px;
+    /* opacity: 30%; */
+    margin-right:200px; 
+} 
+.header-right img{
+    /* position: absolute; */
+    width: 465px;
+    height: 280px;
+    margin-right:200px;
+}
+
+.workbtn button{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:45%;
+    border:1px solid #800080;
+    color: #800080;
+    width: 203px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.container2{
+     display: flex;
+     justify-content: space-between;
+    margin-top: 20px;
+    background: linear-gradient(180deg, #B872D0 0%, #372FAA 100%);
+    width: 992px;
+    height: 360px;
+    margin-left:17%;
+    justify-content: center;
+    border-radius: 10px;
+}
+.header2-left{
+    margin:60px 60px;
+}
+.header2-left h4{
+    color:white;
+    font-size: 21px;
+}
+.header2-left p{
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+.header2-left button{
+    margin-top:50px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    color: #800080;
+    border-radius:10px;
+    background-color: white;
+}
+
+.header2-right{
+    background-color: white;
+    width: 325px;
+    height: 235px;
+    justify-content:center;
+    /* margin-top:50px; */
+    margin:60px 60px;
+}
+.header2-right h3{
+    text-align: center;
+    padding-top:25%;
+    color: #800080;
+    font-size: 18px;
+    
+}
+
+
+.middle-section{
+    background: linear-gradient(90.24deg, rgba(63, 55, 201, 0.74) -11.5%, rgba(177, 66, 64, 0.53) 169.22%);
+    width:100%;
+    height:313px;
+    margin-top:40px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 300px;
+}
+.second-main{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 300px
+}
+.card{
+    width:285px;
+    height:109px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    /* position: absolute; */
+/* width: 285px; */
+/* height: 109px; */
+/* left: 851px; */
+/* top: 35px; */
+background: linear-gradient(139.02deg, #FFFFFF 23.24%, rgba(255, 255, 255, 0) 124.51%);
+/* border-radius: 20px; */
+}
+.card p{
+   text-align: center;
+   justify-content: center;
+   padding-top:13%;
+   font-size: 14px;
+   color: #800080;
+
+}
+.card p h4{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #800080;
+}
+.card p b{
+    font-size: 20px;
+    letter-spacing:0.03em;
+}
+
+/* mainpage */
+.mainpage{
+    position: absolute;
+    width: 1366px;
+    height: 1692px;
+    background: rgba(219, 252, 255, 0.1);
+}
+.mainpage div h2{
+    text-align: center;
+    /* justify-content: center; */
+    color:#372FAA;
+    margin-top: 50px;
+    font-size: 36px;
+    margin-left:10%;
+}
+.box-shadow{
+    position: absolute;
+    align-items: center;
+height: 301px;
+left: 25px;
+right: 511px;
+/* top: 131px; */
+background-color: #e0c9c9;
+border-radius: 5px;
+}
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.box-shadow{
+    text-align: center;
+    position: absolute;
+    width:511px;
+    height:301px;
+    background-color:#FFFFFF;
+    box-shadow:2px 5px 10px 1px;
+    margin-left:170px;
+    margin-top:131px;
+/* height: 301px; */
+/* left: 25px; */
+/* right: 511px; */
+/* top: 131px; */
+
+/* background: #FFFFFF; */
+border-radius: 5px;
+}
+.list-text{
+    margin-top:80px;
+    margin-left:900px;
+    color: #800080;
+    list-style:none;
+}
+.list-text li h4{
+    /* margin-top: 81px; */
+    font-size: 21px;
+    background: linear-gradient(95.79deg, #B771D0 0.84%, #8255C0 98.62%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.list-text li p{
+    margin-top:50px;
+    font-size:16px;
+    background: linear-gradient(95.79deg, #B771D0 0.84%, #8255C0 98.62%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.mainpage-btn{
+    text-align: center;
+    margin-top:125px;
+}
+.mainpage-btn button{
+    width: 225px;
+    height:49px;
+    border-radius: 18px;
+    background-color: #800080;
+    color: #FFFFFF;
+    font-size: 18px;
+}
